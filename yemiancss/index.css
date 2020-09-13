@@ -1,0 +1,752 @@
+@charset "utf-8";
+:root{
+    --animate-delay: 0.5s;
+
+}
+ul,ol{
+    list-style: none;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+#topbanner{
+    background-color: #125AC3;
+
+}
+
+.navbar-brand>img{
+    width: 32px;
+    height: 38px;
+}
+
+.xiamikc{
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    /*font-weight:500;*/
+    color:rgba(255,255,255,1);
+    margin-left: 10px;
+}
+
+#banner-fs
+{
+    width: 100%;
+}
+
+.bgsssss-bn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+
+@media screen and (min-width: 960px){
+    .jumbotron{
+        margin-left: 6rem;
+    }
+    .bgsssss-bn {
+        background: url("../newbg/bgnn.png") no-repeat 100%;
+        background-position: top;
+        background-size: cover;
+    }
+    .display-4{
+        font-size: 32px;
+        font-family: Source Han Sans CN;
+        font-weight: bold;
+        line-height: 87px;
+        color: #343434;
+        opacity: 1;
+        box-sizing: border-box;
+    }
+
+    .fs-lead{
+        font-size: 22px;
+        font-family: Source Han Sans CN;
+        font-weight: 400;
+        line-height: 54px;
+        color: #343434;
+        opacity: 0.72;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 959px){
+    .display-4{
+        font-size:24px;
+        font-family: Source Han Sans CN;
+        font-weight: bold;
+        line-height: 30px;
+        color: #343434;
+        opacity: 1;
+    }
+
+    .fs-lead{
+        font-size: 18px;
+        font-family: Source Han Sans CN;
+        font-weight: 400;
+        line-height: 54px;
+        color: #343434;
+        opacity: 0.72;
+    }
+}
+
+
+.zhuangimg{
+    width: 96px;
+    height: 96px;
+    margin-top: 24px;
+}
+
+.card-fs{
+    padding-top: 12px;
+}
+
+
+
+.card-fs .card-fs-nl
+{
+    margin-top: 10px;
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    /*line-height:43px;*/
+    color: #343434;
+}
+
+.line-fs{
+    width: 90%;
+    border-bottom: 1px solid rgba(138,138,138,0.38);
+    margin: 0 auto;
+}
+
+.fs-text-size{
+    color: #343434;
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+}
+
+.fs-text-size1{
+    font-size:0.8rem;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(138,138,138,1);
+}
+
+
+
+#bottomfooter{
+    /*height: 155px;*/
+    background-color: #083F98;
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    padding: 10px 0;
+}
+
+.text-opttt{
+    opacity: 0.5;
+}
+
+.text-opttt>div:nth-child(2)
+{
+    /*margin-top: 10px;*/
+}
+
+.erweima-fs{
+    width: 180px;
+    height: 180px;
+}
+
+.xiaoimg-fs-fs{
+    width: 30px;
+    height: 30px;
+}
+
+.my-wechart{
+    width: 30px;
+    height: 30px;
+    background-image: url("../newbg/xianshierwem.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.my-wechart:hover > .my-wechartewem{
+    display: block;
+}
+
+.my-wechartewem{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: none;
+    border-radius: 3px;
+    border: 5px solid #fff;
+    box-shadow: 2px 2px 2px #e1e1e1;
+    z-index: 10;
+}
+
+.newcolorlink{
+    color: rgba(255,255,255,1);
+    font-size: 14px;
+}
+
+.cricle-fs{
+    border-radius: 1rem;
+    width: 80px;
+    font-size: 12px;
+}
+#newaddcontent{
+    overflow-x: hidden;
+    background:rgba(245,246,250,1);
+}
+
+
+
+
+.left-img1{
+    position: relative;
+}
+
+.leftbig1>img{
+    display: block;
+    width: 100%;
+}
+
+
+.right-xiao>img{
+    display: block;
+    width: 100%;
+}
+
+
+.thrid-fs-content1>img{
+    display: block;
+    width: 100%;
+}
+
+
+
+.thrid-fs-content2>img{
+    display: block;
+    width: 100%;
+}
+
+
+
+.four-fs-content1>img{
+    display: block;
+    width: 100%;
+}
+
+
+.four-fs-content2>img{
+    display: block;
+    width: 100%;
+}
+
+.text-fs-miaoshu{
+    font-size:12px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(138,138,138,1);
+    margin-top: 10px;
+}
+
+#hezuohuoban{
+    padding-top: 20px;
+}
+
+.animate{
+    opacity: 0;
+}
+
+.hzuhban-fs{
+    font-size: 20px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: rgba(52,52,52,1);
+    padding-top: 40px;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+}
+
+.hzuhban-fs::after{
+    position: absolute;
+    left: 50%;
+    content: "";
+    width:30px;
+    height:6px;
+    background:linear-gradient(180deg,rgba(31,124,250,1) 0%,rgba(44,210,248,1) 100%);
+    opacity:0.44;
+    border-radius:114px;
+    bottom: 0;
+    transform: translateX(-50%);
+
+}
+
+@media screen and (max-width: 768px) {
+    .left-img1>span{
+        position: absolute;
+        right: -70px;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);;
+        -o-transform: translateY(-50%);
+        font-size:12px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(52,52,52,1);
+    }
+
+    #zhuanhua-fs .row>div{
+        /*width: 160px;*/
+    }
+
+    .new-fs-add>span{
+        font-size:14px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(52,52,52,1);
+        padding-top: 20px;
+        box-sizing: border-box;
+        display: inline-block;
+        position: relative;
+    }
+    .new-fs-add>span::after{
+        position: absolute;
+        left: 50%;
+        content: "";
+        width:30px;
+        height:6px;
+        background:linear-gradient(180deg,rgba(31,124,250,1) 0%,rgba(44,210,248,1) 100%);
+        opacity:0.44;
+        border-radius:114px;
+        bottom: 0;
+        transform: translateX(-50%);
+
+    }
+
+    .left-img1{
+        width: 94px;
+        height: 94px;
+    }
+
+    .left-img1>img{
+        display: block;
+        width: 100%;
+    }
+
+    .rightimg1{
+        width: 300px;
+        height: 143px;
+    }
+    .rightimg1>img{
+        display: block;
+        width: 100%;
+    }
+
+    .mt-fs1{
+        margin-top: 20px;
+    }
+
+    .mt-fs{
+        margin-top: 40px;
+    }
+
+    .right-xiao {
+        width: 94px;
+        height: 94px;
+        position: relative;
+    }
+
+    .leftbig1{
+        width: 300px;
+        height: 142px;
+        overflow: hidden;
+    }
+
+
+    .right-xiao>span{
+        position: absolute;
+        bottom: 20px;
+        font-size:12px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(52,52,52,1);
+        z-index: 3;
+        width: 300px;
+        left: -120px;
+
+    }
+
+
+
+
+    .thrid-fs-content1{
+        width: 50px;
+        height: 50px;
+        position: relative;
+    }
+
+    .thrid-fs-content1>span{
+        position: absolute;
+        right: -120px;
+        bottom: 0px;
+        font-size:12px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(52,52,52,1);
+        width: auto;
+    }
+
+    .thrid-fs-content2{
+        width: 300px;
+        height: 180px;
+    }
+
+    .four-fs-content2{
+        width: 94px;
+        height: 94px;
+        position: relative;;
+    }
+
+    .four-fs-content2>span{
+        position: absolute;
+        left: -180px;
+        bottom: 20px;
+        font-size:12px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(52,52,52,1);
+        width: auto;
+    }
+
+    .four-fs-content1{
+        width: 300px;
+        height: 162px;
+        overflow: hidden;
+    }
+
+    #zhuanhua-fs{
+        margin-top: 30px;
+        margin-bottom: 92px;
+    }
+
+    .card-fs .card-title{
+        font-size:22px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(52,52,52,1);
+    }
+
+    .card-fs .card-fs-bfb{
+        font-size:26px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(250,159,38,1);
+        margin-top: 22px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .fs-reseves{
+        flex-direction: column-reverse!important;
+    }
+
+    .mttttt-fss{
+        margin-top: 1rem;
+    }
+
+    .justify-content-betweenfs{
+        justify-content: space-between!important;
+        -ms-flex-pack: justify!important;
+    }
+
+    #zhuanhua-fs{
+        margin-top: 30px;
+        margin-bottom: 42px;
+    }
+
+    .card-fs .card-title{
+        font-size:14px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(52,52,52,1);
+    }
+
+    .card-fs .card-fs-bfb{
+        font-size:14px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(250,159,38,1);
+        margin-top: 10px;
+    }
+
+    .card-fs .card-fs-nl
+    {
+        margin-top: 10px;
+        font-size:12px;
+        font-family:Source Han Sans CN;
+        font-weight:400;
+        /*line-height:43px;*/
+        color: #343434;
+    }
+
+    .zhuangimg{
+        width: 66px;
+        height: 66px;
+        margin-top: 14px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .left-img1>span{
+        position: absolute;
+        right: -80px;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);;
+        -o-transform: translateY(-50%);
+        font-size:18px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(52,52,52,1);
+    }
+
+    #zhuanhua-fs{
+        height: 300px;
+    }
+    .card:hover {
+        border-top: 5px solid #1EA799;
+        transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        -o-transform: translateY(-20px);
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        box-sizing: border-box;
+    }
+
+    .new-fs-add>span{
+        font-size:20px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(52,52,52,1);
+        padding-top: 40px;
+        box-sizing: border-box;
+        display: inline-block;
+        position: relative;
+    }
+    .new-fs-add>span::after{
+        position: absolute;
+        left: 50%;
+        content: "";
+        width:45px;
+        height:8px;
+        background:linear-gradient(180deg,rgba(31,124,250,1) 0%,rgba(44,210,248,1) 100%);
+        opacity:0.44;
+        border-radius:114px;
+        bottom: 0;
+        transform: translateX(-50%);
+        -webkit-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+        -o-transform:translateX(-50%);
+    }
+
+    .left-img1{
+        width: 194px;
+        height: 194px;
+    }
+
+    .left-img1>img{
+        display: block;
+        width: 100%;
+    }
+
+    .rightimg1{
+        width: 750px;
+        height: 343px;
+    }
+    .rightimg1>img{
+        display: block;
+        width: 100%;
+    }
+
+    .mt-fs1{
+        margin-top: 50px;
+    }
+
+    .mt-fs{
+        margin-top: 90px;
+    }
+
+    .leftbig1{
+        width: 750px;
+        height: 356px;
+        overflow: hidden;
+    }
+
+    .right-xiao{
+        width: 194px;
+        height: 194px;
+        position: relative;
+    }
+    .right-xiao>span{
+        position: absolute;
+        bottom: 10px;
+        font-size:18px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(52,52,52,1);
+        z-index: 3;
+        width: 300px;
+        left: -120px;
+
+    }
+
+    .thrid-fs-content1{
+        width: 78px;
+        height: 78px;
+        position: relative;
+    }
+
+    .thrid-fs-content1>span{
+        position: absolute;
+        right: -160px;
+        bottom: -10px;
+        font-size:18px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(52,52,52,1);
+        width: auto;
+    }
+
+    .thrid-fs-content2{
+        width: 664px;
+        height: 400px;
+    }
+
+    .four-fs-content2{
+        width: 194px;
+        height: 194px;
+        position: relative;;
+    }
+
+    .four-fs-content2>span{
+        position: absolute;
+        left: -200px;
+        bottom: -10px;
+        font-size:18px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(52,52,52,1);
+        width: auto;
+    }
+
+    .four-fs-content1{
+        width: 606px;
+        height: 328px;
+        overflow: hidden;
+    }
+
+    #zhuanhua-fs{
+        margin-top: 78px;
+        margin-bottom: 92px;
+    }
+
+    .card-fs .card-title{
+        font-size:22px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(52,52,52,1);
+    }
+
+    .card-fs .card-fs-bfb{
+        font-size:26px;
+        font-family:Source Han Sans CN;
+        font-weight:bold;
+        color:rgba(250,159,38,1);
+        margin-top: 22px;
+    }
+
+    .fsfszuihou{
+        margin-bottom: 80px;
+    }
+
+    /*.card-fs .jqingqidai{*/
+    /*    font-size: 20px;*/
+    /*}*/
+}
+
+.fsfszuihou{
+    margin-bottom: 30px;
+}
+
+.sssftip{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 55;
+    /*z-index: 99999;*/
+}
+
+.logo-wrap{
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.logo-wrap div{
+    width:20%;
+    margin-bottom:40px;
+    text-align:center
+}
+.logo-wrap div img{max-width:190px;-webkit-transform:scale(.8);transform:scale(.8)}
+@media screen and (max-width:1000px){.logo-wrap div{width:33.3%}}
+@media screen and (max-width:768px){
+.logo-wrap div[data-v-a3238586]{width:33.3%}
+}
+@media screen and (max-width:620px){
+    .logo-wrap div{width:50%}
+    .logo-wrap div img{width:80%}
+}
+@media screen and (max-width:420px){}
+
+
+
+.phone-fs{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAz1BMVEVHcEz///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8Z+KahAAAARHRSTlMA9Pbz+dfd/QkO/uhytXYZG/DIUCU2L/thTAgWjPUM1hE/VIpZByHL8th0IifxwnjuRNwmAnu0fCt5ziQfHizvHAFwbVDHMrcAAAE0SURBVEjH7ZZpc4JADIYFS7WCInjf9ar3be/Dtub//yazMgx0SHakX9oPm08kL89uyA6zbyLxtzG0luYVGebSGvJcdwKSmHQ5rpc5v6BdR0I7C5kezdlJFMfWbh+V9vOpEJM2CfZRGn1y7by/oNwnpQ7A4o4fwCvu2SGVFsBUNvJngBYppADmMvADIMWBbf85G5xC1q/dSsA0AT74tZtLQCoUqEAFKlCBCvx/YKNQaPwGrKJH0arxwXJF3KqVcmzw0buP72ODOQ/MXQa2g6yoC04vBhWZediF0poJYNZChScOxC2scF4vlerhHJvXSdAAcN7485+NAQxSaeI3uTbH5UcoN2lJuFLnSPnAr9n3QjjZPL3owDO6ByMSjmd0B1w7m63MWm83/ADSK3dNU2t39fPXOQGoVG9MzxryfQAAAABJRU5ErkJggg==) no-repeat center 100%/contain;
+    vertical-align: text-bottom;
+}
+
+.phone-download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}

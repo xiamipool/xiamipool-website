@@ -1,0 +1,50 @@
+{
+  "0": {
+    "name": "IOST",
+    "imgSrc": "./img/zhuan1.png",
+    "cashlv": "0.85",
+    "isS": true,
+    "money": "¥0000.6",
+    "diyaned": {
+      "1": "45k",
+      "2": "50k",
+      "3": "55k"
+    }
+  },
+  "1": {
+    "name": "IOST",
+    "imgSrc": "./img/fs-1.png",
+    "cashlv": "0.55",
+    "isS": false,
+    "money": "¥0001.6",
+    "diyaned": {
+      "1": "45k",
+      "2": "50k",
+      "3": "55k"
+    }
+  },
+  "2": {
+    "name": "IOST",
+    "imgSrc": "./img/fs-2.png",
+    "cashlv": "0.65",
+    "isS": false,
+    "money": "¥0000.6",
+    "diyaned": {
+      "1": "45k",
+      "2": "50k",
+      "3": "55k"
+    }
+  },
+  "3": {
+    "name": "IOST",
+    "imgSrc": "./img/fs-3.png",
+    "cashlv": "0.95",
+    "isS": true,
+    "money": "¥0010.6",
+    "diyaned": {
+      "1": "45k",
+      "2": "52k",
+      "3": "55k"
+    }
+  }
+}
