@@ -51,11 +51,12 @@ $(function () {
         $(".dropdown-toggle").html("<span style='padding-right: 10px;'>English</span>")
     }
 
-    $('#myDropdown>div').on('click', function () {
-
-
+    $('#myDropdown>a').on('click', function () {
         $(".dropdown-toggle").html("<span style='padding-right: 10px;'>"+$(this).text()+"</span>");
-
+        if($("#navbarSupportedContent").hasClass("show"))
+        {
+            $("#navbarSupportedContent").removeClass("show")
+        }
         if($(this).text().trim()=="中文")
         {
             lang = 'zh'
@@ -152,6 +153,18 @@ $(function () {
         $(".dowloadfsss,.phonedown-fff").on("click",function () {
             $('.copy-tc').toast("show")
         })
+    })
+    var timerfd=null
+
+    $(".navbar-nav>.nav-fssss").on("click",function () {
+        clearInterval(timerfd)
+        if($("#navbarSupportedContent").hasClass("show"))
+        {
+            timerfd= setTimeout(function () {
+                $("#navbarSupportedContent").removeClass("show")
+            },1000)
+
+        }
     })
 
 
