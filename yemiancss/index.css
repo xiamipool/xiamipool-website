@@ -528,7 +528,7 @@ html,body{
     }
 
     #zhuanhua-fs{
-        height: 300px;
+        min-height: 300px;
     }
     .card:hover {
         border-top: 5px solid #1EA799;
@@ -749,4 +749,16 @@ html,body{
     justify-content: center;
     align-content: center;
     width: 100%;
+}
+.dowloadfsss,.phonedown-fff{
+    display: inline-block;
+    width: 210px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    box-shadow: 0 4px 40px 0 rgba(239,239,240,.1);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: PingFangSC-Regular,PingFang SC;
 }
