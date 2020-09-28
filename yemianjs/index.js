@@ -1,5 +1,5 @@
 $(function () {
-    var lang=""
+    var lang="en"
     $(window).on("resize",function () {
         console.log($(window).width())
         var ishow=$(window).width()>960?true:false
@@ -41,7 +41,9 @@ $(function () {
         marginTop:$("#topbanner").height()+"px"
     })
 
-     lang=window.sessionStorage.lang?(lang=window.sessionStorage.lang,changeClick()):'zh';
+     lang=window.sessionStorage.lang?(lang=window.sessionStorage.lang,changeClick()):'en';
+
+    changeClick()
 
     if(lang&&lang=="zh")
     {
@@ -65,12 +67,13 @@ $(function () {
         {
             lang = 'en'
         }
-        window.sessionStorage.lang=lang;
 
         changeClick()
     })
 
+
     function changeClick() {
+        window.sessionStorage.lang=lang;
         jQuery.i18n.properties({
             //加载资浏览器语言对应的资源文件
             name: 'strings', //资源文件名称
@@ -174,6 +177,15 @@ $(function () {
         }
         return false;
     };
+
+    $(".mybaipibook").on("click",function () {
+        if(lang=="en")
+        {
+            window.location.href="https://xiamipool.oss-cn-shanghai.aliyuncs.com/xiamipool_white_paper.1.0.pdf"
+        }else {
+            window.location.href="https://xiamipool.oss-cn-shanghai.aliyuncs.com/whitepaper_cn.1.0.pdf"
+        }
+    })
 
 
 

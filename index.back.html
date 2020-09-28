@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>虾米矿池</title>
+    <meta name="description" content="虾米 提供安全、稳定、便捷的企业级 Staking 服务，支持所有主流 PoS 公链，我们拥有全球部署的基础设施和全天候的 Staking 生态网络，是您参与 Staking 的最佳选择。">
+    <meta name="keywords" content="虾米,虾米矿池,Shrimp pond,Staking,矿池,区块链矿池,Blockchain Mining Pool, Staking Pool, POS,POS矿池,POS Staking Pool,DPOS矿池,数字资产,digital assets,数字货币,cryptocurrency,波卡,Polkadot,以太坊,ETH,ETH2,Libra,Klaytn,Kusama,Cosmos,Tezos,Dash,达世,Qtum,PlatON,PolkaCube,EtherPocket,PlatKeeper.">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/animate.min.css?v=11">
+    <link rel="stylesheet" href="./yemiancss/index.css?v=13">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body data-spy="scroll">
+<div class="w-100 h-100 position-fixed" style="display: none;background-color: rgba(0,0,0,0.5);z-index: 99999;">
+    <img src="./img/wechat-bg.png" alt="" style="display: block;width: 100%;">
+</div>
+<div class="position-fixed sssftip">
+    <div class="toast copy-tc" data-delay="1000" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-body text-primary" data-lang="xm_fsjqqidai">
+            敬请期待
+        </div>
+    </div>
+</div>
+<div id="topbanner" class="fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light" style="">
+        <a class="navbar-brand" href="#">
+            <img src="./newbg/logonew.png" class="logsssffff" alt="">
+            <span class="xiamikc" data-lang="xm_title">虾米矿池</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item nav-fssss active">
+                    <a  class="nav-link mybaipibook" href="javascript:void 0;" style="color: #fff;" data-lang="xm_bps">白皮书<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item nav-fssss">
+                    <a class="nav-link" href="https://etherscan.io/token/0xbf1D65af601DcFf5b804e02A75833fF51E3869B2" style="color: #fff;" data-lang="xm_hyaddress">合约</a>
+                </li>
+                <li class="nav-item nav-fssss">
+                    <a class="nav-link" href="https://app.uniswap.org/#/swap?outputCurrency=0xbf1D65af601DcFf5b804e02A75833fF51E3869B2" style="color: #fff;" data-lang="xm_buyaddress">交易</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #fff;">
+                        中文
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="myDropdown" style="color: #fff;">
+                        <a class="dropdown-item" href="#">中文</a>
+                        <a class="dropdown-item" href="#">English</a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</div>
+<div id="banner-fs">
+    <div class="bgsssss-bn">
+        <div class="jumbotron" style="background-color: transparent;padding-left: 6rem;box-sizing: border-box;">
+            <h1 class="display-4" data-lang="xm_fs_titletip" style="text-align: left;max-width: 500px;">让数字资产价值最大化</h1>
+            <p class="lead fs-lead" style="text-align: left;max-width: 500px;" data-lang="xm_fs_fslead">矿池业务 安全稳定 多平台客户端支持</p>
+            <a class="btn btn-primary btn-lg dowloadfsss" href="javascript:void 0;" role="button" style="padding: 0;">
+                <i class="phone-fs" ></i>
+                <span data-lang="xm_phone_fs" style="">手机下载</span>
+            </a>
+        </div>
+    </div>
+    <div class="phone-download" style="display: none;">
+        <div class="jumbotron" style="background-color: transparent;text-align: center;margin-bottom: 0;">
+            <h1 class="display-4" style="text-align: center;font-size: 24px;line-height: 30px;" data-lang="xm_fs_titletip">让数字资产价值最大化</h1>
+            <p class="lead fs-lead" style="text-align: center;font-size: 18px;" data-lang="xm_fs_fslead">矿池业务 安全稳定 多平台客户端支持</p>
+            <a class="btn btn-primary btn-lg phonedown-fff" href="javascript:void 0;" role="button" style="padding: 0;">
+                <i class="phone-fs"></i>
+                <span data-lang="xm_phone_fs" style="display: inline-block;height: 100%;line-height: 1.5rem">手机下载</span>
+            </a>
+        </div>
+        <div style="box-sizing: border-box;padding: 0 9px;margin-bottom: 1rem;">
+            <img src="./newbg/phones.png" style="display: block;width: 100%" alt="">
+        </div>
+    </div>
+</div>
+<div id="newaddcontent">
+    <div class="new-fs-add d-flex justify-content-center" style="color: #343434;"><span data-lang="xm_new_why">为何选择我们</span></div>
+    <div class="container mt-fs1 divtest animate__animated  animate" data-animation="animate__bounceInLeft">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 d-flex align-items-sm-start  justify-content-md-center">
+                <div class="left-img1">
+                    <img src="./newimg/leftlittle.png" alt="">
+                    <span data-lang="xm_new_qiyeji">企业级节点运维</span>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-8 d-flex align-items-center justify-content-center">
+                <div class="rightimg1">
+                    <img src="./newimg/rightimg.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-fs divtest animate__animated  animate" data-animation="animate__bounceInRight">
+        <div class="row fs-reseves">
+            <div class="col-md-8 col-sm-8 d-flex justify-content-start">
+                <div class="leftbig1">
+                    <img src="./newimg/leftbig1.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4  col-sm-4 d-flex justify-content-end ">
+                <div class="right-xiao" style="">
+                    <img src="./newimg/xiaqiu.png" alt="">
+                    <span data-lang="xm_newbaseling">0基础参与公链节点staking</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-fs divtest animate__animated animate " data-animation="animate__backInDown">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 d-flex justify-content-sm-start justify-content-md-center mt-md-5">
+                <div class="thrid-fs-content1">
+                    <img src="./newimg/thrid-fs-content1.png" alt="">
+                    <span data-lang="xm_newuiduiyu">7*12小时一对一客户服务</span>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-8 d-flex justify-content-end">
+                <div class="thrid-fs-content2">
+                    <img src="./newimg/thrid-fs-content2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-fs divtest animate__animated animate fsfszuihou" data-animation="animate__backInUp" style="">
+        <div class="row fs-reseves">
+            <div class="col-md-8 col-sm-8 d-flex justify-content-md-center justify-content-sm-start">
+                <div class="four-fs-content1">
+                    <img src="./newimg/four-fs-content1.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 d-flex justify-content-end">
+                <div class="four-fs-content2">
+                    <img src="./newimg/four-fs-content2.png" alt="">
+                    <span data-lang="xm_newprodddd">深度参与项目运营，把握项目最新进度，为客户提供专业性建议</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="zhuanhua-fs">
+    <div class="container">
+        <div class="row justify-content-betweenfs">
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-md-0 mttttt-fss col-md-6 fs-animate animate animate__animated  col-md-6" data-animation="animate__backInLeft">
+                <div class="card d-flex flex-column align-items-center shadow" style="" data-dj="yes" data-type="chainx">
+                    <img src="./detailimg/card1-log.png" class="card-img-top rounded-circle zhuangimg">
+                    <div class="card-body card-fs">
+                        <h5 class="card-title text-center">Chainx</h5>
+                        <p class="card-subtitle text-center card-fs-bfb">50%~65%</p>
+                        <p class="card-text text-center card-fs-nl" data-lang="xm_nianqi">预期年化率</p>
+                        <p class="line-fs"></p>
+                        <p class="card-text text-fs-miaoshu text-center" data-lang="new_xmcard1">验证节点</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 fs-animate animate animate__animated  mt-lg-0 mt-md-0 mt-3 col-md-6" data-animation="animate__backInLeft">
+                <div class="card d-flex flex-column align-items-center shadow" data-toggle="tooltip" data-placement="top" style="">
+                    <img src="./logo/acala.png" class="card-img-top rounded-circle zhuangimg">
+                    <div class="card-body card-fs">
+                        <h5 class="card-title text-center">Acala</h5>
+                        <p class="card-subtitle text-center card-fs-bfb jqingqidai" data-lang="new_xmjqqd">敬请期待</p>
+                        <p class="card-text text-center card-fs-nl" data-lang="xm_nianqi">预期年化率</p>
+                        <p class="line-fs"></p>
+                        <p class="card-text text-fs-miaoshu text-center" data-lang="new_xmcard1">验证节点</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 animate__animated fs-animate animate mt-lg-0 mt-md-3 mt-3 col-md-6" data-animation="animate__backInLeft">
+                <div class="card d-flex flex-column align-items-center shadow" style="">
+                    <img src="./logo/near.png" class="card-img-top rounded-circle zhuangimg">
+                    <div class="card-body card-fs">
+                        <h5 class="card-title text-center">Near</h5>
+                        <p class="card-subtitle text-center card-fs-bfb" data-lang="new_xmjqqd">敬请期待</p>
+                        <p class="card-text text-center card-fs-nl" data-lang="xm_nianqi">预期年化率</p>
+                        <p class="line-fs"></p>
+                        <p class="card-text text-fs-miaoshu text-center" data-lang="new_xmcard1">验证节点</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 animate__animated fs-animate animate  mt-lg-0 mt-md-3 mt-3 col-md-6" data-animation="animate__backInLeft">
+                <div class="card d-flex flex-column align-items-center shadow" style="">
+                    <img src="./logo/plasm.png" class="card-img-top rounded-circle zhuangimg">
+                    <div class="card-body card-fs">
+                        <h5 class="card-title text-center">Plasm</h5>
+                        <p class="card-subtitle text-center card-fs-bfb" data-lang="new_xmjqqd">敬请期待</p>
+                        <p class="card-text text-center card-fs-nl" data-lang="xm_nianqi">预期年化率</p>
+                        <p class="line-fs"></p>
+                        <p class="card-text text-fs-miaoshu text-center" data-lang="new_xmcard1">验证节点</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="hezuohuoban" style="">
+    <div class="container text-center">
+        <div class="new-fs-add d-flex justify-content-center" style="color: #343434;"><span data-lang="xm_hzhb">合作伙伴</span></div>
+        <div class="logo-wrap">
+            <div class="">
+                <img src="hzlog/a680103.png" alt="">
+            </div>
+            <div class="">
+                <img src="hzlog/BML.png" alt="">
+            </div>
+            <div class="">
+                <img src="hzlog/chainx.png" alt="">
+            </div>
+            <div class="">
+                <img src="hzlog/acala.png" alt="">
+            </div>
+            <div class="">
+                <img src="hzlog/imtoken.png" alt="">
+            </div>
+            <div class="">
+                <img src="hzlog/CoinGecko1.png" alt="">
+            </div>
+            <div class="">
+                <img src="hzlog/kusama.png" alt="">
+            </div>
+            <div class="">
+                <img src="hzlog/mathwallet.png" alt="">
+            </div>
+
+            <div class="">
+                <img src="hzlog/near.png" alt="">
+            </div>
+            <div class="">
+                <img src="hzlog/nerve.png" alt="">
+            </div>
+            <div class="">
+                <img src="hzlog/nuls.png" alt="">
+            </div>
+            <div class="">
+                <img src="hzlog/phala.png" alt="">
+            </div>
+            <div class="">
+                <img src="hzlog/plasm.png" alt="">
+            </div>
+            <div class="">
+                <img src="hzlog/polkadot1.png" alt="">
+            </div>
+            <div class="">
+                <img src="hzlog/polkaworld-2.png" alt="">
+            </div>
+            <!--            <div class="">-->
+            <!--                <img src="hzlog/fishchi.png" alt="">-->
+            <!--            </div>-->
+        </div>
+    </div>
+</div>
+<div id="bottomfooter" style="padding-bottom: 40px;padding-top: 40px;">
+    <div class="container">
+        <div class="row h-100 w-100">
+            <div class="col-md-6 col-sm-6 d-flex flex-column  text-opttt">
+                <div data-lang="xm_title" class="">虾米矿池</div>
+                <div data-lang="xm_jianjie" class="mt-4">
+                    为数字资产持有人提供稳定、安全、公开、开放的业务平台。</div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-md-left mt-md-0 mt-3 text-center">
+                <div>
+                    <div class="mt-4">
+                        <!--                    <img class="erweima-fs rounded" src="./logo/logerwm.png?v=1" alt="">-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="d-none d-sm-none d-md-block text-left">
+                    <span class="text-opttt text-md-left d-inline-block w-100" data-lang="xm_fslianxius">联系我们</span>
+                    <div class="mt-4" style="position: relative;">
+                        <a href="https://twitter.com/fisher_asch"><img class="xiaoimg-fs-fs" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAt1BMVEUAAAC7vMW6vMS7vca9vca8vcbExMi7u8W7vMW6vMW7u8S7vMW7u8S7vMW7vMW7u8W8vMbCwszMzMzb29u6u8QJFjK2t8Cys74fK0USHjl5f44xO1MkL0gWIj25usOnqbWusLqYnKmQlKGMkJ6Ch5Z+g5Job4FhaHtHUWY3QVgoM0sLGDWhpK+Tl6Rxd4hRWW0aJkAQHDianapsc4Q8Rl2JjpxdZHhASV8oNEyprLZZYXVGT2QrNU4fH1L+AAAAFHRSTlMA+qBxRz8V8Ozfx8bDwrOmeRkKB1DiTTYAAAI7SURBVEjHpZfZkqowEEAJAiqjDjodRAFx33dnu8v/f9ctrkOF7kDEynmjKoeQ0J3uGMX0LM90mw3GGk3X9KyeURmn1maAYO2aU0m1O5mJ/Y79WG1BKS213n0FJa/dcteqwwPqVplbgwrUCtU3Eyphvsmu8wIVeXGkebGrtuncJjyBqdirJ3fNgiexhNutPyvXRbSo46q/DONLdJrAf/yfWMtcWwxcJED5OPM7Jz990QnuZHGey4Xtdkzc+Y5nvB/fB/yQZYk08Z7zsI/c/YAjVgBo6o4YOkvfj+w1dpf9xRHudFLXYbklpwOiSW6zdsiNv3dBti7mkPiY8ZTLTayYE+IJipQ2CBJ+Z5MNuRE32IvBbcPooRMrzEZ9fYzS5yWRryBgPRKZQzHufBru/SGRExyjHiA2HDEgMvoTHs7F6fTXlisYkMx08VdHG5UcINk1mpBjwtWESG4aDcgxCtTyJ5IbBiO7rWSGKxCRR98q9+ITuQGIRLXbGyCf3QTMWLHdcyAb5lLZH0YlbjAChCsd2DdeylE6vj3A9OMyN+4DxkOJof5bCyBYJCVRGmLWQGA9cRgI5gGXOY+B0C4uU/58Rf3BtLBgOazA/v3YZU529CJGi63aFUevYWPzsJKCJDqAjE3KzewrDC6csvv0QaYlFbpkvZPc8ApF2AUlNlmd0WLXh5J2rqS4X4/rMIrj4O+f1cxXFHeNtkKjodFppbSaOJ32Uadx1WiZdZp1nWuC7gVF/2qkfynTug7+A1lk59LUaLzgAAAAAElFTkSuQmCC" alt=""></a>
+                        <a href="https://t.me/xiamipool"><img class="xiaoimg-fs-fs" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAzFBMVEUAAAC7vMW6u8W6vMS7vca8vcbExMi7u8W7vMW6vMW7u8S7vMW7u8S7vMW7vMW7u8W8vMa9vce9vcXCwszMzMzb29u6u8QJFjIhLEa4ucKusLodKUOwsrylp7KUl6U8RVw2QFcaJkC1tsCytL6rrbh7gJBudYZob4BIUmZBSmAvOlIMGTWZnKmQlKGIjJtXX3NTWm9FTmQlMEoSHjkQHTioqrafoa6MkJ6AhpV0eopscoNjaXxbY3ZPWGxMVGkrNU0XIz4UIDt3fI0qNE0Pd0ZpAAAAFnRSTlMA/PmgcT8V8Ozfx8bDwrOmeUlGGQoH7tUB3gAAAnZJREFUSMell+lS6kAQhUOCbLKLp8MOIgIqu7KIguj7v9O9kAmzJENi5fsDoerUUKdPd3oMfyrlopVJp0wzlc5YxXLFCE0injMhYebiiVDSm3wMPsTyN8HSLLRkr8vvCrhK4U6vLSURQLKk08ZjCCQW95XeWwiFde9Tn1uE5DbhOZdrg9Xq2Rb+gKV4hT8Rl2oUQwgaT8/djeN5SchGEsG8fr0Rkc3qzdNSQBAP/Wc603WzdskzAmh+fhPjFww351lcozppE2d/6ZIQBz8ObBJ5gnx0HlpawxcmsmfOZwsu+XMudWXqbQ/kMn34dL70eIsk9PlYTY8XqT0G0y6UpOT8TNp0iDPrYca+DsHJGUbFhMr7rkuc+hrVL2J8gGNWjDIU1qMXEtg3UB2SyxgCZaOoxHdBIt0JUJ3z5x4EioalxFdiXgMeRvx5oXRmRo0v53tz+lnM1xAiGSPt5sEmhdHjqdjMdu4XJ22k4KBqj/2zB/K/GUMkZbiVelqSSPsd/6nJWmpAxLyI0ei3LzVabp2uOMhaG4o4BU7tx9F3mk5YFiQzh0SKGcb1286StV3TY+EAimEZb7B1WlpDIqMd2Ks6eaip47uoGVu8Nzx+8XiW4csPeZlDpsxa0sMHMfR+mRU2DDzsyMsEEjntGJpSoF9x7QDcn7t58CKOFEjEEtrROzq15AotoWAjSOT1Q79DdHw9xZu35A4SN/rXzYGWLSdvU3+/sldedPW3S+/22Wx6VA7Wv2KHLWG02V6/CqFf7rX2afRDIHkXfq2oDuq/TbFMpSgLTZRVKtISF2V9jLK4RliZoyzrUa4JUS8o0a9G0S9lka6D/wDojADWiv/h+wAAAABJRU5ErkJggg==" alt=""></a>
+                        <a href="https://bihu.com/people/160445"><img class="xiaoimg-fs-fs" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAxlBMVEUAAADDw8q6u8W7vMW6vMS7vca7vMa7vMS7u8W7vMW6vMW7u8S7vMW7vMW7u8W8vMa9vce9vcXMzMzb29u9vcW6u8QJFjIUIDuztL62t8CvsbuNkZ+jpbCKjZymqLM/SF4LGDSsrrh5fo8PHDeanqqHjJp/hZRRWW0sN08pM0wlMEkgLEVmbX8xPFSpq7aTl6RtdIVqcIJeZXhVXHA2QFcbJ0EXIz1xd4hhaHtFTmSEiJdaYXVJUWY5Q1odKUOWmqcTHzqfoq4okoURAAAAFXRSTlMAF/nHoHFA+/Ds38PCs6Z5SUYKBz5EoWymAAACsklEQVRIx62X6XaiQBCFETGJRuMSq2UxoriBgnFf4pLM+7/UgByluqdA5pDvl3K8Nl1VfataomnUq0q+VJTlYimvVOsNKTW5QlkGDrlcyKWSNivPQPBcaT6UPr1CLK9PyS/8Bom8Jbx87QUe8FKL0xYgBQVS+q5AKpR3Yrt5SEk+98+6tJZWi2sr8B8oj2KVPmo1IOiMGWOXEamuoWAR+VXnF3bF/KTyHQWNqKuRzW70x22i1u71DCKfJsNsXR1EbnUunoX2uM8EJpYmnhJyYd3dMoK1QS5dAYRmTRhN9zTgxJVrqPHZ/16zeFp7FbtDTqgPY8sSOWhCpZTRdifcQufVfnlyOPUCicu+TyKvc1nExg2zqxo4bVOUM7kh1SFiw+6cUWFYrShquNzqUhV9Q5tTAWFE6g/0uCoplNjRgxe2Dt75OLiuTYoVKU+Iu8Ogzrywsl3wMSlxXioRYk8D6Dk4wgYlLklFLEY/X0YpawPodisEF2lRkgmx/wsVpXwOAL1OCA6kTIm7fpBm6GCNAYPFxRjxTyRexYiLZMD8YGt2JLYCexj2/IfGsIcDRqZq6X/eRSXpC3qb4B/1KZ8qskgc1V/FvFnYV2BpjBArfHniF9VDM5oEWtW+pkCbCuVZp8SbP+AzWIyPo+sm90HM53N3y4nr3JFkd2zObXdddsPAR5IzAwfZZbRE74iMbIDMgLchC/vd4UMPDLE9x/Ziq8iGeAPUePu7rE3T/mGYETZAwXrbDktkL1qv1ERPZqt+vNThOmYTtRvUpmg2C51rN3Sj+/IIaX/VEbsN3WLV3VTUmt9Ui6Wb+2zZwlJvSDT3hLFicLpX1XSnEmNF8kBjhEnfLmf0QJM8Smkjj7VWbWqUyjTEZRkfswyu2Ubm7MN69mtC9gsKlsddjZ5+91KW6Tr4F9oW+l8g3IYYAAAAAElFTkSuQmCC" alt=""></a>
+                        <a href="https://github.com/xiamipool"><img class="xiaoimg-fs-fs" src="img/github.png" alt=""></a>
+                        <a href="https://link.medium.com/NyEAZHmK09"><img class="xiaoimg-fs-fs" src="img/mmm.png" alt=""></a>
+                        <a href="javascript:void(0)" class="my-wechart">
+                            <img class="my-wechartewem rounded" src="./newbg/newee.jpg?v=1" alt="">
+                        </a>
+                    </div>
+                </div>
+                </d<!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>虾米矿池</title>
+                    <meta name="description" content="虾米 提供安全、稳定、便捷的企业级 Staking 服务，支持所有主流 PoS 公链，我们拥有全球部署的基础设施和全天候的 Staking 生态网络，是您参与 Staking 的最佳选择。">
+                    <meta name="keywords" content="虾米,虾米矿池,Shrimp pond,Staking,矿池,区块链矿池,Blockchain Mining Pool, Staking Pool, POS,POS矿池,POS Staking Pool,DPOS矿池,数字资产,digital assets,数字货币,cryptocurrency,波卡,Polkadot,以太坊,ETH,ETH2,Libra,Klaytn,Kusama,Cosmos,Tezos,Dash,达世,Qtum,PlatON,PolkaCube,EtherPocket,PlatKeeper.">
+                    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                    <link rel="stylesheet" href="./css/bootstrap.min.css">
+                    <link rel="stylesheet" href="./css/animate.min.css?v=11">
+                    <link rel="stylesheet" href="./yemiancss/index.css?v=13">
+                    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+                </head>
+                <body data-spy="scroll">
+                <div class="w-100 h-100 position-fixed" style="display: none;background-color: rgba(0,0,0,0.5);z-index: 99999;">
+                    <img src="./img/wechat-bg.png" alt="" style="display: block;width: 100%;">
+                </div>
+                <div class="position-fixed sssftip">
+                    <div class="toast copy-tc" data-delay="1000" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-body text-primary" data-lang="xm_fsjqqidai">
+                            敬请期待
+                        </div>
+                    </div>
+                </div>
+                <div id="topbanner" class="fixed-top">
+                    <nav class="navbar navbar-expand-lg navbar-light" style="">
+                        <a class="navbar-brand" href="#">
+                            <img src="./newbg/logonew.png" class="logsssffff" alt="">
+                            <span class="xiamikc" data-lang="xm_title">虾米矿池</span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item nav-fssss active">
+                                    <a  class="nav-link mybaipibook" href="javascript:void 0;" style="color: #fff;" data-lang="xm_bps">白皮书<span class="sr-only"></span></a>
+                                </li>
+                                <li class="nav-item nav-fssss">
+                                    <a class="nav-link" href="https://etherscan.io/token/0xbf1D65af601DcFf5b804e02A75833fF51E3869B2" style="color: #fff;" data-lang="xm_hyaddress">合约</a>
+                                </li>
+                                <li class="nav-item nav-fssss">
+                                    <a class="nav-link" href="https://app.uniswap.org/#/swap?outputCurrency=0xbf1D65af601DcFf5b804e02A75833fF51E3869B2" style="color: #fff;" data-lang="xm_buyaddress">交易</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #fff;">
+                                        中文
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="myDropdown" style="color: #fff;">
+                                        <a class="dropdown-item" href="#">中文</a>
+                                        <a class="dropdown-item" href="#">English</a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </nav>
+                </div>
+                <div id="banner-fs">
+                    <div class="bgsssss-bn">
+                        <div class="jumbotron" style="background-color: transparent;padding-left: 6rem;box-sizing: border-box;">
+                            <h1 class="display-4" data-lang="xm_fs_titletip" style="text-align: left;max-width: 500px;">让数字资产价值最大化</h1>
+                            <p class="lead fs-lead" style="text-align: left;max-width: 500px;" data-lang="xm_fs_fslead">矿池业务 安全稳定 多平台客户端支持</p>
+                            <a class="btn btn-primary btn-lg dowloadfsss" href="javascript:void 0;" role="button" style="padding: 0;">
+                                <i class="phone-fs" ></i>
+                                <span data-lang="xm_phone_fs" style="">手机下载</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="phone-download" style="display: none;">
+                        <div class="jumbotron" style="background-color: transparent;text-align: center;margin-bottom: 0;">
+                            <h1 class="display-4" style="text-align: center;font-size: 24px;line-height: 30px;" data-lang="xm_fs_titletip">让数字资产价值最大化</h1>
+                            <p class="lead fs-lead" style="text-align: center;font-size: 18px;" data-lang="xm_fs_fslead">矿池业务 安全稳定 多平台客户端支持</p>
+                            <a class="btn btn-primary btn-lg phonedown-fff" href="javascript:void 0;" role="button" style="padding: 0;">
+                                <i class="phone-fs"></i>
+                                <span data-lang="xm_phone_fs" style="display: inline-block;height: 100%;line-height: 1.5rem">手机下载</span>
+                            </a>
+                        </div>
+                        <div style="box-sizing: border-box;padding: 0 9px;margin-bottom: 1rem;">
+                            <img src="./newbg/phones.png" style="display: block;width: 100%" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="newaddcontent">
+                    <div class="new-fs-add d-flex justify-content-center" style="color: #343434;"><span data-lang="xm_new_why">为何选择我们</span></div>
+                    <div class="container mt-fs1 divtest animate__animated  animate" data-animation="animate__bounceInLeft">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 d-flex align-items-sm-start  justify-content-md-center">
+                                <div class="left-img1">
+                                    <img src="./newimg/leftlittle.png" alt="">
+                                    <span data-lang="xm_new_qiyeji">企业级节点运维</span>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-sm-8 d-flex align-items-center justify-content-center">
+                                <div class="rightimg1">
+                                    <img src="./newimg/rightimg.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container mt-fs divtest animate__animated  animate" data-animation="animate__bounceInRight">
+                        <div class="row fs-reseves">
+                            <div class="col-md-8 col-sm-8 d-flex justify-content-start">
+                                <div class="leftbig1">
+                                    <img src="./newimg/leftbig1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-4  col-sm-4 d-flex justify-content-end ">
+                                <div class="right-xiao" style="">
+                                    <img src="./newimg/xiaqiu.png" alt="">
+                                    <span data-lang="xm_newbaseling">0基础参与公链节点staking</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container mt-fs divtest animate__animated animate " data-animation="animate__backInDown">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-sm-start justify-content-md-center mt-md-5">
+                                <div class="thrid-fs-content1">
+                                    <img src="./newimg/thrid-fs-content1.png" alt="">
+                                    <span data-lang="xm_newuiduiyu">7*12小时一对一客户服务</span>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-sm-8 d-flex justify-content-end">
+                                <div class="thrid-fs-content2">
+                                    <img src="./newimg/thrid-fs-content2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container mt-fs divtest animate__animated animate fsfszuihou" data-animation="animate__backInUp" style="">
+                        <div class="row fs-reseves">
+                            <div class="col-md-8 col-sm-8 d-flex justify-content-md-center justify-content-sm-start">
+                                <div class="four-fs-content1">
+                                    <img src="./newimg/four-fs-content1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-end">
+                                <div class="four-fs-content2">
+                                    <img src="./newimg/four-fs-content2.png" alt="">
+                                    <span data-lang="xm_newprodddd">深度参与项目运营，把握项目最新进度，为客户提供专业性建议</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="zhuanhua-fs">
+                    <div class="container">
+                        <div class="row justify-content-betweenfs">
+                            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-md-0 mttttt-fss col-md-6 fs-animate animate animate__animated  col-md-6" data-animation="animate__backInLeft">
+                                <div class="card d-flex flex-column align-items-center shadow" style="" data-dj="yes" data-type="chainx">
+                                    <img src="./detailimg/card1-log.png" class="card-img-top rounded-circle zhuangimg">
+                                    <div class="card-body card-fs">
+                                        <h5 class="card-title text-center">Chainx</h5>
+                                        <p class="card-subtitle text-center card-fs-bfb">50%~65%</p>
+                                        <p class="card-text text-center card-fs-nl" data-lang="xm_nianqi">预期年化率</p>
+                                        <p class="line-fs"></p>
+                                        <p class="card-text text-fs-miaoshu text-center" data-lang="new_xmcard1">验证节点</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 fs-animate animate animate__animated  mt-lg-0 mt-md-0 mt-3 col-md-6" data-animation="animate__backInLeft">
+                                <div class="card d-flex flex-column align-items-center shadow" data-toggle="tooltip" data-placement="top" style="">
+                                    <img src="./logo/acala.png" class="card-img-top rounded-circle zhuangimg">
+                                    <div class="card-body card-fs">
+                                        <h5 class="card-title text-center">Acala</h5>
+                                        <p class="card-subtitle text-center card-fs-bfb jqingqidai" data-lang="new_xmjqqd">敬请期待</p>
+                                        <p class="card-text text-center card-fs-nl" data-lang="xm_nianqi">预期年化率</p>
+                                        <p class="line-fs"></p>
+                                        <p class="card-text text-fs-miaoshu text-center" data-lang="new_xmcard1">验证节点</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 animate__animated fs-animate animate mt-lg-0 mt-md-3 mt-3 col-md-6" data-animation="animate__backInLeft">
+                                <div class="card d-flex flex-column align-items-center shadow" style="">
+                                    <img src="./logo/near.png" class="card-img-top rounded-circle zhuangimg">
+                                    <div class="card-body card-fs">
+                                        <h5 class="card-title text-center">Near</h5>
+                                        <p class="card-subtitle text-center card-fs-bfb" data-lang="new_xmjqqd">敬请期待</p>
+                                        <p class="card-text text-center card-fs-nl" data-lang="xm_nianqi">预期年化率</p>
+                                        <p class="line-fs"></p>
+                                        <p class="card-text text-fs-miaoshu text-center" data-lang="new_xmcard1">验证节点</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 animate__animated fs-animate animate  mt-lg-0 mt-md-3 mt-3 col-md-6" data-animation="animate__backInLeft">
+                                <div class="card d-flex flex-column align-items-center shadow" style="">
+                                    <img src="./logo/plasm.png" class="card-img-top rounded-circle zhuangimg">
+                                    <div class="card-body card-fs">
+                                        <h5 class="card-title text-center">Plasm</h5>
+                                        <p class="card-subtitle text-center card-fs-bfb" data-lang="new_xmjqqd">敬请期待</p>
+                                        <p class="card-text text-center card-fs-nl" data-lang="xm_nianqi">预期年化率</p>
+                                        <p class="line-fs"></p>
+                                        <p class="card-text text-fs-miaoshu text-center" data-lang="new_xmcard1">验证节点</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="hezuohuoban" style="">
+                    <div class="container text-center">
+                        <div class="new-fs-add d-flex justify-content-center" style="color: #343434;"><span data-lang="xm_hzhb">合作伙伴</span></div>
+                        <div class="logo-wrap">
+                            <div class="">
+                                <img src="hzlog/a680103.png" alt="">
+                            </div>
+                            <div class="">
+                                <img src="hzlog/BML.png" alt="">
+                            </div>
+                            <div class="">
+                                <img src="hzlog/chainx.png" alt="">
+                            </div>
+                            <div class="">
+                                <img src="hzlog/acala.png" alt="">
+                            </div>
+                            <div class="">
+                                <img src="hzlog/imtoken.png" alt="">
+                            </div>
+                            <div class="">
+                                <img src="hzlog/CoinGecko1.png" alt="">
+                            </div>
+                            <div class="">
+                                <img src="hzlog/kusama.png" alt="">
+                            </div>
+                            <div class="">
+                                <img src="hzlog/mathwallet.png" alt="">
+                            </div>
+
+                            <div class="">
+                                <img src="hzlog/near.png" alt="">
+                            </div>
+                            <div class="">
+                                <img src="hzlog/nerve.png" alt="">
+                            </div>
+                            <div class="">
+                                <img src="hzlog/nuls.png" alt="">
+                            </div>
+                            <div class="">
+                                <img src="hzlog/phala.png" alt="">
+                            </div>
+                            <div class="">
+                                <img src="hzlog/plasm.png" alt="">
+                            </div>
+                            <div class="">
+                                <img src="hzlog/polkadot1.png" alt="">
+                            </div>
+                            <div class="">
+                                <img src="hzlog/polkaworld-2.png" alt="">
+                            </div>
+                            <!--            <div class="">-->
+                            <!--                <img src="hzlog/fishchi.png" alt="">-->
+                            <!--            </div>-->
+                        </div>
+                    </div>
+                </div>
+                <div id="bottomfooter" style="padding-bottom: 40px;padding-top: 40px;">
+                    <div class="container">
+                        <div class="row h-100 w-100">
+                            <div class="col-md-6 col-sm-6 d-flex flex-column  text-opttt">
+                                <div data-lang="xm_title" class="">虾米矿池</div>
+                                <div data-lang="xm_jianjie" class="mt-4">
+                                    为数字资产持有人提供稳定、安全、公开、开放的业务平台。</div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 text-md-left mt-md-0 mt-3 text-center">
+                                <div>
+                                    <div class="mt-4">
+                                        <!--                    <img class="erweima-fs rounded" src="./logo/logerwm.png?v=1" alt="">-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="d-none d-sm-none d-md-block text-left">
+                                    <span class="text-opttt text-md-left d-inline-block w-100" data-lang="xm_fslianxius">联系我们</span>
+                                    <div class="mt-4" style="position: relative;">
+                                        <a href="https://twitter.com/fisher_asch"><img class="xiaoimg-fs-fs" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAt1BMVEUAAAC7vMW6vMS7vca9vca8vcbExMi7u8W7vMW6vMW7u8S7vMW7u8S7vMW7vMW7u8W8vMbCwszMzMzb29u6u8QJFjK2t8Cys74fK0USHjl5f44xO1MkL0gWIj25usOnqbWusLqYnKmQlKGMkJ6Ch5Z+g5Job4FhaHtHUWY3QVgoM0sLGDWhpK+Tl6Rxd4hRWW0aJkAQHDianapsc4Q8Rl2JjpxdZHhASV8oNEyprLZZYXVGT2QrNU4fH1L+AAAAFHRSTlMA+qBxRz8V8Ozfx8bDwrOmeRkKB1DiTTYAAAI7SURBVEjHpZfZkqowEEAJAiqjDjodRAFx33dnu8v/f9ctrkOF7kDEynmjKoeQ0J3uGMX0LM90mw3GGk3X9KyeURmn1maAYO2aU0m1O5mJ/Y79WG1BKS213n0FJa/dcteqwwPqVplbgwrUCtU3Eyphvsmu8wIVeXGkebGrtuncJjyBqdirJ3fNgiexhNutPyvXRbSo46q/DONLdJrAf/yfWMtcWwxcJED5OPM7Jz990QnuZHGey4Xtdkzc+Y5nvB/fB/yQZYk08Z7zsI/c/YAjVgBo6o4YOkvfj+w1dpf9xRHudFLXYbklpwOiSW6zdsiNv3dBti7mkPiY8ZTLTayYE+IJipQ2CBJ+Z5MNuRE32IvBbcPooRMrzEZ9fYzS5yWRryBgPRKZQzHufBru/SGRExyjHiA2HDEgMvoTHs7F6fTXlisYkMx08VdHG5UcINk1mpBjwtWESG4aDcgxCtTyJ5IbBiO7rWSGKxCRR98q9+ITuQGIRLXbGyCf3QTMWLHdcyAb5lLZH0YlbjAChCsd2DdeylE6vj3A9OMyN+4DxkOJof5bCyBYJCVRGmLWQGA9cRgI5gGXOY+B0C4uU/58Rf3BtLBgOazA/v3YZU529CJGi63aFUevYWPzsJKCJDqAjE3KzewrDC6csvv0QaYlFbpkvZPc8ApF2AUlNlmd0WLXh5J2rqS4X4/rMIrj4O+f1cxXFHeNtkKjodFppbSaOJ32Uadx1WiZdZp1nWuC7gVF/2qkfynTug7+A1lk59LUaLzgAAAAAElFTkSuQmCC" alt=""></a>
+                                        <a href="https://t.me/xiamipool"><img class="xiaoimg-fs-fs" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAzFBMVEUAAAC7vMW6u8W6vMS7vca8vcbExMi7u8W7vMW6vMW7u8S7vMW7u8S7vMW7vMW7u8W8vMa9vce9vcXCwszMzMzb29u6u8QJFjIhLEa4ucKusLodKUOwsrylp7KUl6U8RVw2QFcaJkC1tsCytL6rrbh7gJBudYZob4BIUmZBSmAvOlIMGTWZnKmQlKGIjJtXX3NTWm9FTmQlMEoSHjkQHTioqrafoa6MkJ6AhpV0eopscoNjaXxbY3ZPWGxMVGkrNU0XIz4UIDt3fI0qNE0Pd0ZpAAAAFnRSTlMA/PmgcT8V8Ozfx8bDwrOmeUlGGQoH7tUB3gAAAnZJREFUSMell+lS6kAQhUOCbLKLp8MOIgIqu7KIguj7v9O9kAmzJENi5fsDoerUUKdPd3oMfyrlopVJp0wzlc5YxXLFCE0injMhYebiiVDSm3wMPsTyN8HSLLRkr8vvCrhK4U6vLSURQLKk08ZjCCQW95XeWwiFde9Tn1uE5DbhOZdrg9Xq2Rb+gKV4hT8Rl2oUQwgaT8/djeN5SchGEsG8fr0Rkc3qzdNSQBAP/Wc603WzdskzAmh+fhPjFww351lcozppE2d/6ZIQBz8ObBJ5gnx0HlpawxcmsmfOZwsu+XMudWXqbQ/kMn34dL70eIsk9PlYTY8XqT0G0y6UpOT8TNp0iDPrYca+DsHJGUbFhMr7rkuc+hrVL2J8gGNWjDIU1qMXEtg3UB2SyxgCZaOoxHdBIt0JUJ3z5x4EioalxFdiXgMeRvx5oXRmRo0v53tz+lnM1xAiGSPt5sEmhdHjqdjMdu4XJ22k4KBqj/2zB/K/GUMkZbiVelqSSPsd/6nJWmpAxLyI0ei3LzVabp2uOMhaG4o4BU7tx9F3mk5YFiQzh0SKGcb1286StV3TY+EAimEZb7B1WlpDIqMd2Ks6eaip47uoGVu8Nzx+8XiW4csPeZlDpsxa0sMHMfR+mRU2DDzsyMsEEjntGJpSoF9x7QDcn7t58CKOFEjEEtrROzq15AotoWAjSOT1Q79DdHw9xZu35A4SN/rXzYGWLSdvU3+/sldedPW3S+/22Wx6VA7Wv2KHLWG02V6/CqFf7rX2afRDIHkXfq2oDuq/TbFMpSgLTZRVKtISF2V9jLK4RliZoyzrUa4JUS8o0a9G0S9lka6D/wDojADWiv/h+wAAAABJRU5ErkJggg==" alt=""></a>
+                                        <a href="https://bihu.com/people/160445"><img class="xiaoimg-fs-fs" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAxlBMVEUAAADDw8q6u8W7vMW6vMS7vca7vMa7vMS7u8W7vMW6vMW7u8S7vMW7vMW7u8W8vMa9vce9vcXMzMzb29u9vcW6u8QJFjIUIDuztL62t8CvsbuNkZ+jpbCKjZymqLM/SF4LGDSsrrh5fo8PHDeanqqHjJp/hZRRWW0sN08pM0wlMEkgLEVmbX8xPFSpq7aTl6RtdIVqcIJeZXhVXHA2QFcbJ0EXIz1xd4hhaHtFTmSEiJdaYXVJUWY5Q1odKUOWmqcTHzqfoq4okoURAAAAFXRSTlMAF/nHoHFA+/Ds38PCs6Z5SUYKBz5EoWymAAACsklEQVRIx62X6XaiQBCFETGJRuMSq2UxoriBgnFf4pLM+7/UgByluqdA5pDvl3K8Nl1VfataomnUq0q+VJTlYimvVOsNKTW5QlkGDrlcyKWSNivPQPBcaT6UPr1CLK9PyS/8Bom8Jbx87QUe8FKL0xYgBQVS+q5AKpR3Yrt5SEk+98+6tJZWi2sr8B8oj2KVPmo1IOiMGWOXEamuoWAR+VXnF3bF/KTyHQWNqKuRzW70x22i1u71DCKfJsNsXR1EbnUunoX2uM8EJpYmnhJyYd3dMoK1QS5dAYRmTRhN9zTgxJVrqPHZ/16zeFp7FbtDTqgPY8sSOWhCpZTRdifcQufVfnlyOPUCicu+TyKvc1nExg2zqxo4bVOUM7kh1SFiw+6cUWFYrShquNzqUhV9Q5tTAWFE6g/0uCoplNjRgxe2Dt75OLiuTYoVKU+Iu8Ogzrywsl3wMSlxXioRYk8D6Dk4wgYlLklFLEY/X0YpawPodisEF2lRkgmx/wsVpXwOAL1OCA6kTIm7fpBm6GCNAYPFxRjxTyRexYiLZMD8YGt2JLYCexj2/IfGsIcDRqZq6X/eRSXpC3qb4B/1KZ8qskgc1V/FvFnYV2BpjBArfHniF9VDM5oEWtW+pkCbCuVZp8SbP+AzWIyPo+sm90HM53N3y4nr3JFkd2zObXdddsPAR5IzAwfZZbRE74iMbIDMgLchC/vd4UMPDLE9x/Ziq8iGeAPUePu7rE3T/mGYETZAwXrbDktkL1qv1ERPZqt+vNThOmYTtRvUpmg2C51rN3Sj+/IIaX/VEbsN3WLV3VTUmt9Ui6Wb+2zZwlJvSDT3hLFicLpX1XSnEmNF8kBjhEnfLmf0QJM8Smkjj7VWbWqUyjTEZRkfswyu2Ubm7MN69mtC9gsKlsddjZ5+91KW6Tr4F9oW+l8g3IYYAAAAAElFTkSuQmCC" alt=""></a>
+                                        <a href="https://github.com/xiamipool"><img class="xiaoimg-fs-fs" src="img/github.png" alt=""></a>
+                                        <a href="https://link.medium.com/NyEAZHmK09"><img class="xiaoimg-fs-fs" src="img/mmm.png" alt=""></a>
+                                        <a href="javascript:void(0)" class="my-wechart">
+                                            <img class="my-wechartewem rounded" src="./newbg/newee.jpg?v=1" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container d-block d-sm-block d-md-none mt-md-0 mt-3 text-center">
+                        <span class="text-opttt" data-lang="xm_fslianxius">联系我们</span>
+                        <div class="mt-4" style="position: relative;">
+                            <a href="https://twitter.com/fisher_asch"><img class="xiaoimg-fs-fs" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAt1BMVEUAAAC7vMW6vMS7vca9vca8vcbExMi7u8W7vMW6vMW7u8S7vMW7u8S7vMW7vMW7u8W8vMbCwszMzMzb29u6u8QJFjK2t8Cys74fK0USHjl5f44xO1MkL0gWIj25usOnqbWusLqYnKmQlKGMkJ6Ch5Z+g5Job4FhaHtHUWY3QVgoM0sLGDWhpK+Tl6Rxd4hRWW0aJkAQHDianapsc4Q8Rl2JjpxdZHhASV8oNEyprLZZYXVGT2QrNU4fH1L+AAAAFHRSTlMA+qBxRz8V8Ozfx8bDwrOmeRkKB1DiTTYAAAI7SURBVEjHpZfZkqowEEAJAiqjDjodRAFx33dnu8v/f9ctrkOF7kDEynmjKoeQ0J3uGMX0LM90mw3GGk3X9KyeURmn1maAYO2aU0m1O5mJ/Y79WG1BKS213n0FJa/dcteqwwPqVplbgwrUCtU3Eyphvsmu8wIVeXGkebGrtuncJjyBqdirJ3fNgiexhNutPyvXRbSo46q/DONLdJrAf/yfWMtcWwxcJED5OPM7Jz990QnuZHGey4Xtdkzc+Y5nvB/fB/yQZYk08Z7zsI/c/YAjVgBo6o4YOkvfj+w1dpf9xRHudFLXYbklpwOiSW6zdsiNv3dBti7mkPiY8ZTLTayYE+IJipQ2CBJ+Z5MNuRE32IvBbcPooRMrzEZ9fYzS5yWRryBgPRKZQzHufBru/SGRExyjHiA2HDEgMvoTHs7F6fTXlisYkMx08VdHG5UcINk1mpBjwtWESG4aDcgxCtTyJ5IbBiO7rWSGKxCRR98q9+ITuQGIRLXbGyCf3QTMWLHdcyAb5lLZH0YlbjAChCsd2DdeylE6vj3A9OMyN+4DxkOJof5bCyBYJCVRGmLWQGA9cRgI5gGXOY+B0C4uU/58Rf3BtLBgOazA/v3YZU529CJGi63aFUevYWPzsJKCJDqAjE3KzewrDC6csvv0QaYlFbpkvZPc8ApF2AUlNlmd0WLXh5J2rqS4X4/rMIrj4O+f1cxXFHeNtkKjodFppbSaOJ32Uadx1WiZdZp1nWuC7gVF/2qkfynTug7+A1lk59LUaLzgAAAAAElFTkSuQmCC" alt=""></a>
+                            <a href="https://t.me/xiamipool"><img class="xiaoimg-fs-fs" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAzFBMVEUAAAC7vMW6u8W6vMS7vca8vcbExMi7u8W7vMW6vMW7u8S7vMW7u8S7vMW7vMW7u8W8vMa9vce9vcXCwszMzMzb29u6u8QJFjIhLEa4ucKusLodKUOwsrylp7KUl6U8RVw2QFcaJkC1tsCytL6rrbh7gJBudYZob4BIUmZBSmAvOlIMGTWZnKmQlKGIjJtXX3NTWm9FTmQlMEoSHjkQHTioqrafoa6MkJ6AhpV0eopscoNjaXxbY3ZPWGxMVGkrNU0XIz4UIDt3fI0qNE0Pd0ZpAAAAFnRSTlMA/PmgcT8V8Ozfx8bDwrOmeUlGGQoH7tUB3gAAAnZJREFUSMell+lS6kAQhUOCbLKLp8MOIgIqu7KIguj7v9O9kAmzJENi5fsDoerUUKdPd3oMfyrlopVJp0wzlc5YxXLFCE0injMhYebiiVDSm3wMPsTyN8HSLLRkr8vvCrhK4U6vLSURQLKk08ZjCCQW95XeWwiFde9Tn1uE5DbhOZdrg9Xq2Rb+gKV4hT8Rl2oUQwgaT8/djeN5SchGEsG8fr0Rkc3qzdNSQBAP/Wc603WzdskzAmh+fhPjFww351lcozppE2d/6ZIQBz8ObBJ5gnx0HlpawxcmsmfOZwsu+XMudWXqbQ/kMn34dL70eIsk9PlYTY8XqT0G0y6UpOT8TNp0iDPrYca+DsHJGUbFhMr7rkuc+hrVL2J8gGNWjDIU1qMXEtg3UB2SyxgCZaOoxHdBIt0JUJ3z5x4EioalxFdiXgMeRvx5oXRmRo0v53tz+lnM1xAiGSPt5sEmhdHjqdjMdu4XJ22k4KBqj/2zB/K/GUMkZbiVelqSSPsd/6nJWmpAxLyI0ei3LzVabp2uOMhaG4o4BU7tx9F3mk5YFiQzh0SKGcb1286StV3TY+EAimEZb7B1WlpDIqMd2Ks6eaip47uoGVu8Nzx+8XiW4csPeZlDpsxa0sMHMfR+mRU2DDzsyMsEEjntGJpSoF9x7QDcn7t58CKOFEjEEtrROzq15AotoWAjSOT1Q79DdHw9xZu35A4SN/rXzYGWLSdvU3+/sldedPW3S+/22Wx6VA7Wv2KHLWG02V6/CqFf7rX2afRDIHkXfq2oDuq/TbFMpSgLTZRVKtISF2V9jLK4RliZoyzrUa4JUS8o0a9G0S9lka6D/wDojADWiv/h+wAAAABJRU5ErkJggg==" alt=""></a>
+                            <a href="https://bihu.com/people/160445"><img class="xiaoimg-fs-fs" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAxlBMVEUAAADDw8q6u8W7vMW6vMS7vca7vMa7vMS7u8W7vMW6vMW7u8S7vMW7vMW7u8W8vMa9vce9vcXMzMzb29u9vcW6u8QJFjIUIDuztL62t8CvsbuNkZ+jpbCKjZymqLM/SF4LGDSsrrh5fo8PHDeanqqHjJp/hZRRWW0sN08pM0wlMEkgLEVmbX8xPFSpq7aTl6RtdIVqcIJeZXhVXHA2QFcbJ0EXIz1xd4hhaHtFTmSEiJdaYXVJUWY5Q1odKUOWmqcTHzqfoq4okoURAAAAFXRSTlMAF/nHoHFA+/Ds38PCs6Z5SUYKBz5EoWymAAACsklEQVRIx62X6XaiQBCFETGJRuMSq2UxoriBgnFf4pLM+7/UgByluqdA5pDvl3K8Nl1VfataomnUq0q+VJTlYimvVOsNKTW5QlkGDrlcyKWSNivPQPBcaT6UPr1CLK9PyS/8Bom8Jbx87QUe8FKL0xYgBQVS+q5AKpR3Yrt5SEk+98+6tJZWi2sr8B8oj2KVPmo1IOiMGWOXEamuoWAR+VXnF3bF/KTyHQWNqKuRzW70x22i1u71DCKfJsNsXR1EbnUunoX2uM8EJpYmnhJyYd3dMoK1QS5dAYRmTRhN9zTgxJVrqPHZ/16zeFp7FbtDTqgPY8sSOWhCpZTRdifcQufVfnlyOPUCicu+TyKvc1nExg2zqxo4bVOUM7kh1SFiw+6cUWFYrShquNzqUhV9Q5tTAWFE6g/0uCoplNjRgxe2Dt75OLiuTYoVKU+Iu8Ogzrywsl3wMSlxXioRYk8D6Dk4wgYlLklFLEY/X0YpawPodisEF2lRkgmx/wsVpXwOAL1OCA6kTIm7fpBm6GCNAYPFxRjxTyRexYiLZMD8YGt2JLYCexj2/IfGsIcDRqZq6X/eRSXpC3qb4B/1KZ8qskgc1V/FvFnYV2BpjBArfHniF9VDM5oEWtW+pkCbCuVZp8SbP+AzWIyPo+sm90HM53N3y4nr3JFkd2zObXdddsPAR5IzAwfZZbRE74iMbIDMgLchC/vd4UMPDLE9x/Ziq8iGeAPUePu7rE3T/mGYETZAwXrbDktkL1qv1ERPZqt+vNThOmYTtRvUpmg2C51rN3Sj+/IIaX/VEbsN3WLV3VTUmt9Ui6Wb+2zZwlJvSDT3hLFicLpX1XSnEmNF8kBjhEnfLmf0QJM8Smkjj7VWbWqUyjTEZRkfswyu2Ubm7MN69mtC9gsKlsddjZ5+91KW6Tr4F9oW+l8g3IYYAAAAAElFTkSuQmCC" alt=""></a>
+                            <a href="https://github.com/xiamipool"><img class="xiaoimg-fs-fs" src="img/github.png" alt=""></a>
+                            <a href="https://link.medium.com/NyEAZHmK09"><img class="xiaoimg-fs-fs" src="img/mmm.png" alt=""></a>
+                            <a href="javascript:void(0)" class="my-wechart">
+                                <img class="my-wechartewem rounded" src="./img/mygzh.jpg?v=1" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <script src="util/jquery.min.js"></script>
+                <script src="./util/iscroll.js"></script>
+                <script src="util/jquery.i18n.properties.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+                <script src="util/bootstrap.min.js"></script>
+                <script src="yemianjs/index.js?v=9"></script>
+                </body>
+                </html>iv>
+            </div>
+        </div>
+        <div class="container d-block d-sm-block d-md-none mt-md-0 mt-3 text-center">
+            <span class="text-opttt" data-lang="xm_fslianxius">联系我们</span>
+            <div class="mt-4" style="position: relative;">
+                <a href="https://twitter.com/fisher_asch"><img class="xiaoimg-fs-fs" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAt1BMVEUAAAC7vMW6vMS7vca9vca8vcbExMi7u8W7vMW6vMW7u8S7vMW7u8S7vMW7vMW7u8W8vMbCwszMzMzb29u6u8QJFjK2t8Cys74fK0USHjl5f44xO1MkL0gWIj25usOnqbWusLqYnKmQlKGMkJ6Ch5Z+g5Job4FhaHtHUWY3QVgoM0sLGDWhpK+Tl6Rxd4hRWW0aJkAQHDianapsc4Q8Rl2JjpxdZHhASV8oNEyprLZZYXVGT2QrNU4fH1L+AAAAFHRSTlMA+qBxRz8V8Ozfx8bDwrOmeRkKB1DiTTYAAAI7SURBVEjHpZfZkqowEEAJAiqjDjodRAFx33dnu8v/f9ctrkOF7kDEynmjKoeQ0J3uGMX0LM90mw3GGk3X9KyeURmn1maAYO2aU0m1O5mJ/Y79WG1BKS213n0FJa/dcteqwwPqVplbgwrUCtU3Eyphvsmu8wIVeXGkebGrtuncJjyBqdirJ3fNgiexhNutPyvXRbSo46q/DONLdJrAf/yfWMtcWwxcJED5OPM7Jz990QnuZHGey4Xtdkzc+Y5nvB/fB/yQZYk08Z7zsI/c/YAjVgBo6o4YOkvfj+w1dpf9xRHudFLXYbklpwOiSW6zdsiNv3dBti7mkPiY8ZTLTayYE+IJipQ2CBJ+Z5MNuRE32IvBbcPooRMrzEZ9fYzS5yWRryBgPRKZQzHufBru/SGRExyjHiA2HDEgMvoTHs7F6fTXlisYkMx08VdHG5UcINk1mpBjwtWESG4aDcgxCtTyJ5IbBiO7rWSGKxCRR98q9+ITuQGIRLXbGyCf3QTMWLHdcyAb5lLZH0YlbjAChCsd2DdeylE6vj3A9OMyN+4DxkOJof5bCyBYJCVRGmLWQGA9cRgI5gGXOY+B0C4uU/58Rf3BtLBgOazA/v3YZU529CJGi63aFUevYWPzsJKCJDqAjE3KzewrDC6csvv0QaYlFbpkvZPc8ApF2AUlNlmd0WLXh5J2rqS4X4/rMIrj4O+f1cxXFHeNtkKjodFppbSaOJ32Uadx1WiZdZp1nWuC7gVF/2qkfynTug7+A1lk59LUaLzgAAAAAElFTkSuQmCC" alt=""></a>
+                <a href="https://t.me/xiamipool"><img class="xiaoimg-fs-fs" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAzFBMVEUAAAC7vMW6u8W6vMS7vca8vcbExMi7u8W7vMW6vMW7u8S7vMW7u8S7vMW7vMW7u8W8vMa9vce9vcXCwszMzMzb29u6u8QJFjIhLEa4ucKusLodKUOwsrylp7KUl6U8RVw2QFcaJkC1tsCytL6rrbh7gJBudYZob4BIUmZBSmAvOlIMGTWZnKmQlKGIjJtXX3NTWm9FTmQlMEoSHjkQHTioqrafoa6MkJ6AhpV0eopscoNjaXxbY3ZPWGxMVGkrNU0XIz4UIDt3fI0qNE0Pd0ZpAAAAFnRSTlMA/PmgcT8V8Ozfx8bDwrOmeUlGGQoH7tUB3gAAAnZJREFUSMell+lS6kAQhUOCbLKLp8MOIgIqu7KIguj7v9O9kAmzJENi5fsDoerUUKdPd3oMfyrlopVJp0wzlc5YxXLFCE0injMhYebiiVDSm3wMPsTyN8HSLLRkr8vvCrhK4U6vLSURQLKk08ZjCCQW95XeWwiFde9Tn1uE5DbhOZdrg9Xq2Rb+gKV4hT8Rl2oUQwgaT8/djeN5SchGEsG8fr0Rkc3qzdNSQBAP/Wc603WzdskzAmh+fhPjFww351lcozppE2d/6ZIQBz8ObBJ5gnx0HlpawxcmsmfOZwsu+XMudWXqbQ/kMn34dL70eIsk9PlYTY8XqT0G0y6UpOT8TNp0iDPrYca+DsHJGUbFhMr7rkuc+hrVL2J8gGNWjDIU1qMXEtg3UB2SyxgCZaOoxHdBIt0JUJ3z5x4EioalxFdiXgMeRvx5oXRmRo0v53tz+lnM1xAiGSPt5sEmhdHjqdjMdu4XJ22k4KBqj/2zB/K/GUMkZbiVelqSSPsd/6nJWmpAxLyI0ei3LzVabp2uOMhaG4o4BU7tx9F3mk5YFiQzh0SKGcb1286StV3TY+EAimEZb7B1WlpDIqMd2Ks6eaip47uoGVu8Nzx+8XiW4csPeZlDpsxa0sMHMfR+mRU2DDzsyMsEEjntGJpSoF9x7QDcn7t58CKOFEjEEtrROzq15AotoWAjSOT1Q79DdHw9xZu35A4SN/rXzYGWLSdvU3+/sldedPW3S+/22Wx6VA7Wv2KHLWG02V6/CqFf7rX2afRDIHkXfq2oDuq/TbFMpSgLTZRVKtISF2V9jLK4RliZoyzrUa4JUS8o0a9G0S9lka6D/wDojADWiv/h+wAAAABJRU5ErkJggg==" alt=""></a>
+                <a href="https://bihu.com/people/160445"><img class="xiaoimg-fs-fs" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAxlBMVEUAAADDw8q6u8W7vMW6vMS7vca7vMa7vMS7u8W7vMW6vMW7u8S7vMW7vMW7u8W8vMa9vce9vcXMzMzb29u9vcW6u8QJFjIUIDuztL62t8CvsbuNkZ+jpbCKjZymqLM/SF4LGDSsrrh5fo8PHDeanqqHjJp/hZRRWW0sN08pM0wlMEkgLEVmbX8xPFSpq7aTl6RtdIVqcIJeZXhVXHA2QFcbJ0EXIz1xd4hhaHtFTmSEiJdaYXVJUWY5Q1odKUOWmqcTHzqfoq4okoURAAAAFXRSTlMAF/nHoHFA+/Ds38PCs6Z5SUYKBz5EoWymAAACsklEQVRIx62X6XaiQBCFETGJRuMSq2UxoriBgnFf4pLM+7/UgByluqdA5pDvl3K8Nl1VfataomnUq0q+VJTlYimvVOsNKTW5QlkGDrlcyKWSNivPQPBcaT6UPr1CLK9PyS/8Bom8Jbx87QUe8FKL0xYgBQVS+q5AKpR3Yrt5SEk+98+6tJZWi2sr8B8oj2KVPmo1IOiMGWOXEamuoWAR+VXnF3bF/KTyHQWNqKuRzW70x22i1u71DCKfJsNsXR1EbnUunoX2uM8EJpYmnhJyYd3dMoK1QS5dAYRmTRhN9zTgxJVrqPHZ/16zeFp7FbtDTqgPY8sSOWhCpZTRdifcQufVfnlyOPUCicu+TyKvc1nExg2zqxo4bVOUM7kh1SFiw+6cUWFYrShquNzqUhV9Q5tTAWFE6g/0uCoplNjRgxe2Dt75OLiuTYoVKU+Iu8Ogzrywsl3wMSlxXioRYk8D6Dk4wgYlLklFLEY/X0YpawPodisEF2lRkgmx/wsVpXwOAL1OCA6kTIm7fpBm6GCNAYPFxRjxTyRexYiLZMD8YGt2JLYCexj2/IfGsIcDRqZq6X/eRSXpC3qb4B/1KZ8qskgc1V/FvFnYV2BpjBArfHniF9VDM5oEWtW+pkCbCuVZp8SbP+AzWIyPo+sm90HM53N3y4nr3JFkd2zObXdddsPAR5IzAwfZZbRE74iMbIDMgLchC/vd4UMPDLE9x/Ziq8iGeAPUePu7rE3T/mGYETZAwXrbDktkL1qv1ERPZqt+vNThOmYTtRvUpmg2C51rN3Sj+/IIaX/VEbsN3WLV3VTUmt9Ui6Wb+2zZwlJvSDT3hLFicLpX1XSnEmNF8kBjhEnfLmf0QJM8Smkjj7VWbWqUyjTEZRkfswyu2Ubm7MN69mtC9gsKlsddjZ5+91KW6Tr4F9oW+l8g3IYYAAAAAElFTkSuQmCC" alt=""></a>
+                <a href="https://github.com/xiamipool"><img class="xiaoimg-fs-fs" src="img/github.png" alt=""></a>
+                <a href="https://link.medium.com/NyEAZHmK09"><img class="xiaoimg-fs-fs" src="img/mmm.png" alt=""></a>
+                <a href="javascript:void(0)" class="my-wechart">
+                    <img class="my-wechartewem rounded" src="./img/mygzh.jpg?v=1" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="util/jquery.min.js"></script>
+    <script src="./util/iscroll.js"></script>
+    <script src="util/jquery.i18n.properties.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="util/bootstrap.min.js"></script>
+    <script src="yemianjs/index.js?v=9"></script>
+</body>
+</html>
