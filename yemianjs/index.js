@@ -33,6 +33,7 @@ $(function () {
             console.log($("#zhuanhua-fs .row>div").width(sw-30)+"px")
         }
 
+        $(".dowloadfsss").css("display",'block')
 
 
     }).trigger("resize")
@@ -154,7 +155,12 @@ $(function () {
         })
 
         $(".dowloadfsss,.phonedown-fff").on("click",function () {
-            $('.copy-tc').toast("show")
+            if(getIsWxClient())
+            {
+                $(".isweixin").css("display",'block')
+            }else {
+                window.location.href='https://xiamipool.oss-cn-shanghai.aliyuncs.com/apk/xiamipool.apk'
+            }
         })
     })
     var timerfd=null
@@ -188,6 +194,9 @@ $(function () {
     })
 
 
+    $(".isweixin").on("click",function () {
+        $(this).css("display",'none')
+    })
 
 
     // translate()
