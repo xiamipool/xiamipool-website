@@ -199,5 +199,7 @@ $(function () {
     })
 
 
+
+    // $(".isweixin>img").height($(window).height()+"px")
     // translate()
 })
